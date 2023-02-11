@@ -23,6 +23,9 @@
 <html lang="ja">
   
   <body>
+    <div class="tab-wrap">
+      <input id="TAB-01" type="radio" name="TAB" class="tab-switch" checked="checked" /><label class="tab-label" for="TAB-01">集合論</label>
+      <div class="tab-content">
     <div class="box3">
       <span class="box-title">Axiom of Choice.</span>
       <p>$\forall\lambda\in\Lambda , A_\lambda \neq \varnothing$とする．このとき，
@@ -47,4 +50,22 @@
         <center> AC \(\Longleftrightarrow\)帰納的順序集合\(X\)に極大元が存在する．</center>
       </p>  
     </div>
+      </div>
+
+      <input id="TAB-02" type="radio" name="TAB" class="tab-switch" /><label class="tab-label" for="TAB-02">位相空間論</label>
+      <div class="tab-content">
+        <div class="box1">
+          <span class="box-title">Thm.</span>
+          <p>コンパクト集合に含まれる閉集合はコンパクトである．</p>
+        </div>
+      
+        $B\subset A \subset X$．  $A$:コンパクト ， $B$:閉集合，とする．<br>
+        $B$の開被覆$\{U_{\lambda}\}_{\lambda\in\Lambda}$に対し，$\{U_{\lambda}\}_{\lambda\in\Lambda}\cup \{X\backslash B\}$は$A$ の開被覆<br>
+        $A$のコンパクト性より，
+        <center>
+          $A\subset \displaystyle\bigcup_{i=1}^n U_{\lambda_i} \cup (X\backslash B)$
+        </center>
+        $(X\backslash B) \cap B = \varnothing$なので，$B\subset \displaystyle\bigcup_{i=1}^n U_{\lambda_i}$
+        $\require{\AMScd}\require{\physics}$
+      </div>
   </body>

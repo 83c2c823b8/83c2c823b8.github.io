@@ -27,7 +27,7 @@
       color: #4689FF	;
       font-weight: bold;
     }
-    .box1 p {
+    .box2 p {
       margin: 0; 
       padding: 0;
     }
@@ -36,8 +36,7 @@
       position: relative;
       margin: 2em 0;
       padding: 0.5em 1em;
-      border: solid 3px #993333;
-      background-color: ;
+      border: solid 3px 	#008000;
       border-radius: 8px;
     }
     .box2 .box-title {
@@ -49,10 +48,35 @@
       line-height: 1;
       font-size: 19px;
       background: #FFF;
-      color: #993333;
+      color: 		#006600	;
       font-weight: bold;
     }
     .box2 p {
+      margin: 0; 
+      padding: 0;
+    }
+
+    .box3 {
+      position: relative;
+      margin: 2em 0;
+      padding: 0.5em 1em;
+      border: solid 3px #993333;
+      background-color: ;
+      border-radius: 8px;
+    }
+    .box3 .box-title {
+      position: absolute;
+      display: inline-block;
+      top: -13px;
+      left: 10px;
+      padding: 0 9px;
+      line-height: 1;
+      font-size: 19px;
+      background: #FFF;
+      color: #993333;
+      font-weight: bold;
+    }
+    .box3 p {
       margin: 0; 
       padding: 0;
     }

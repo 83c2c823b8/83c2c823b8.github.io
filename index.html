@@ -24,12 +24,17 @@
   
   <body>
     <div class="tab-wrap">
-      <input id="TAB-01" type="radio" name="TAB" class="tab-switch" checked="checked" /><label class="tab-label" for="TAB-01">集合論</label>
+    <input id="TAB-01" type="radio" name="TAB" class="tab-switch" checked="checked" /><label class="tab-label" for="TAB-01">ZFC</label>
+      <div class="tab-content">
+      </div>
+   
+      <input id="TAB-02" type="radio" name="TAB" class="tab-switch" checked="checked" /><label class="tab-label" for="TAB-02">集合論</label>
       <div class="tab-content">
     <div class="box3">
       <span class="box-title">Axiom of Choice.</span>
       <p>$\forall\lambda\in\Lambda , A_\lambda \neq \varnothing$とする．このとき，
         <center>\(\displaystyle\prod_{\lambda\in\Lambda}A_\lambda\neq\varnothing\)</center>
+        以後，ACと略記する．
       </p>  
     </div>
   
@@ -39,10 +44,6 @@
         <center>$X$:帰納的順序集合\(\overset{\text{def}}{\Longleftrightarrow}\)$X$の任意の全順序部分集合(鎖)が$X$に上界をもつ．</center>
       </p>  
     </div>
-    <details id=proof> 
-      <summary>Proof.</summary>
-       
-    </details>
 
     <div class="box1">
       <span class="box-title">Zornの補題．</span>
@@ -50,9 +51,14 @@
         <center> AC \(\Longleftrightarrow\)帰納的順序集合\(X\)に極大元が存在する．</center>
       </p>  
     </div>
+
+    <details id=proof> 
+      <summary>Proof.</summary>
+       
+    </details>
       </div>
 
-      <input id="TAB-02" type="radio" name="TAB" class="tab-switch" /><label class="tab-label" for="TAB-02">位相空間論</label>
+      <input id="TAB-03" type="radio" name="TAB" class="tab-switch" /><label class="tab-label" for="TAB-03">位相空間論</label>
       <div class="tab-content">
         <div class="box1">
           <span class="box-title">Thm.</span>
